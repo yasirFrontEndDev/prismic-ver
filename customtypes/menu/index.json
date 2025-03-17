@@ -1,0 +1,95 @@
+{
+  "id": "menu",
+  "json": {
+    "Main": {
+      "title": {
+        "type": "StructuredText",
+        "config": {
+          "placeholder": "Menu title...",
+          "single": "heading1"
+        }
+      },
+      "top_links": {
+        "type": "Group",
+        "config": {
+          "fields": {
+            "top_link_title": {
+              "type": "StructuredText",
+              "config": {
+                "multi": "paragraph",
+                "label": "top link title"
+              }
+            },
+            "internal_link": {
+              "type": "StructuredText",
+              "config": {
+                "single": "paragraph",
+                "label": "internal link"
+              }
+            }
+          },
+          "label": "Top Links"
+        }
+      },
+      "body": {
+        "type": "Slices",
+        "fieldset": "Slice zone",
+        "config": {
+          "labels": null,
+          "choices": {
+            "menugroup": {
+              "type": "Slice",
+              "fieldset": "MenuGroup",
+              "description": "menu group",
+              "icon": "add_circle",
+              "display": "list",
+              "non-repeat": {
+                "submenu_title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph",
+                    "label": "Submenu title"
+                  }
+                },
+                "submenu_link": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "paragraph",
+                    "label": "submenu link"
+                  }
+                },
+                "include_items": {
+                  "type": "Boolean",
+                  "config": {
+                    "default_value": true,
+                    "label": "Include items"
+                  }
+                }
+              },
+              "repeat": {
+                "item_title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph",
+                    "label": "item title"
+                  }
+                },
+                "item_internal_link": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "paragraph",
+                    "label": "item internal link"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "label": "Menu",
+  "repeatable": false,
+  "status": true,
+  "format": "custom"
+}

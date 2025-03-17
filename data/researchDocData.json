@@ -1,0 +1,149 @@
+{
+  "type": "research",
+  "uid": "should-viscous-fiber-supplements-be-considered",
+  "lang": "en-us",
+  "data": {
+    "title": [
+      {
+        "type": "heading1",
+        "text": "Viscous Fiber Supplements for Diabetes Control",
+        "spans": []
+      }
+    ],
+    "tldr": [
+      {
+        "type": "paragraph",
+        "text": "This systematic review and meta-analysis evaluated the effect of viscous fiber supplementation on glycemic control in individuals with type 2 diabetes. A total of 28 randomized controlled trials (RCTs) with 1,394 participants were analyzed. The findings indicate that viscous fiber significantly reduces HbA1c, fasting blood glucose, and insulin resistance markers. The median dose of fiber supplementation was 13.1 g/day over a median duration of 8 weeks. The study concludes that viscous fiber can improve glycemic control and should be considered as part of diabetes management strategies.",
+        "spans": []
+      },
+      {
+        "type": "paragraph",
+        "text": "The study found that individuals with higher baseline HbA1c levels showed greater reductions in their glycemic markers. However, substantial heterogeneity among trials was observed. The certainty of the evidence was graded moderate for key glycemic markers and low for fructosamine. The authors suggest that dietary guidelines should be revised to promote viscous fiber intake for individuals with type 2 diabetes.",
+        "spans": []
+      }
+    ],
+    "domain_group": [
+      {
+        "domain_text": [
+          {
+            "type": "paragraph",
+            "text": "Diabetes Prevention",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "domain_text": [
+          {
+            "type": "paragraph",
+            "text": "Pharmacological Treatments",
+            "spans": []
+          }
+        ]
+      }
+    ],
+    "publisher": [
+      {
+        "type": "paragraph",
+        "text": "Diabetes Care",
+        "spans": []
+      }
+    ],
+    "publication_year": 2019,
+    "doi": [
+      {
+        "type": "paragraph",
+        "text": "https://doi.org/10.2337/dc18-1126",
+        "spans": []
+      }
+    ],
+    "duration_group": [
+      {
+        "study_duration": "Short-Term (≤3 mo)"
+      }
+    ],
+    "size_group": [
+      {
+        "study_size": "Medium size (100–500)"
+      }
+    ],
+    "region_group": [
+      {
+        "region": "Global"
+      }
+    ],
+    "age_group": [
+      {
+        "age": "Middle Aged (40-64)"
+      },
+      {
+        "age": "Older Adults (65+)"
+      }
+    ],
+    "other_char_group": [
+      {
+        "other_characteristics": "with T2 Diabetes"
+      }
+    ],
+    "sex_group": [
+      {
+        "sex": "Male"
+      },
+      {
+        "sex": "Female"
+      }
+    ],
+    "study_type_group": [
+      {
+        "study_type": "Systematic Review"
+      },
+      {
+        "study_type": "Meta-Analysis"
+      }
+    ],
+    "industry_sponsored": false,
+    "bias_overall": "Some Concerns",
+    "methodology": [
+      {
+        "type": "paragraph",
+        "text": "A systematic search was conducted across MEDLINE, Embase, and the Cochrane Central Register of Controlled Trials for RCTs assessing the impact of viscous fiber on glycemic markers in type 2 diabetes. Studies with a minimum duration of 3 weeks were included. Data were extracted independently by two reviewers, and pooled results were analyzed using the generic inverse variance method. The certainty of evidence was graded using the GRADE system.",
+        "spans": []
+      }
+    ],
+    "intervention": [
+      {
+        "type": "paragraph",
+        "text": "Participants received a median dose of 13.1 g/day of viscous fiber supplementation, including psyllium, guar gum, konjac, and β-glucan. The interventions were provided in different forms, such as powder, capsules, and enriched foods. The study compared these interventions with fiber-free or insoluble fiber supplements.",
+        "spans": []
+      }
+    ],
+    "intervention_snomed_list": [
+      {
+        "type": "paragraph",
+        "text": "Psyllium, Guar gum, Konjac, β-glucan",
+        "spans": []
+      }
+    ],
+    "key_findings": [
+      {
+        "type": "paragraph",
+        "text": "Viscous fiber supplementation significantly reduced HbA1c (-0.58%), fasting blood glucose (-0.82 mmol/L), and insulin resistance (HOMA-IR reduction of 1.89). The findings support the inclusion of viscous fiber in diabetes management, particularly for individuals with elevated HbA1c levels.",
+        "spans": []
+      }
+    ],
+    "comparison_with_other_studies": [
+      {
+        "type": "paragraph",
+        "text": "This study confirms previous findings that dietary fiber can aid glycemic control. Compared to prior research grouping soluble and insoluble fiber, this study isolates the effects of viscous fiber, demonstrating its unique benefits. While insoluble fiber supports colonic health, viscous fiber has metabolic benefits, including improved glucose and lipid regulation.",
+        "spans": []
+      }
+    ],
+    "journal_reference_ama": [
+      {
+        "type": "paragraph",
+        "text": "Jovanovski E, Khayyat R, Zurbau A, et al. Should Viscous Fiber Supplements Be Considered in Diabetes Control? Results From a Systematic Review and Meta-analysis of Randomized Controlled Trials. Diabetes Care. 2019;42(5):755-766. doi:10.2337/dc18-1126.",
+        "spans": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,431 @@
+{
+  "Main": {
+    "title": {
+      "type": "StructuredText",
+      "config": {
+        "single": "heading1",
+        "label": "Title"
+      }
+    },
+    "uid": {
+      "type": "UID",
+      "config": {
+        "label": "slug"
+      }
+    },
+    "doi": {
+      "type": "StructuredText",
+      "config": {
+        "single": "paragraph",
+        "label": "doi"
+      }
+    },
+    "publisher": {
+      "type": "StructuredText",
+      "config": {
+        "single": "paragraph",
+        "label": "Publisher"
+      }
+    },
+    "publication_year": {
+      "type": "Number",
+      "config": {
+        "label": "Publication Year"
+      }
+    },
+    "domain_group": {
+      "type": "Group",
+      "config": {
+        "fields": {
+          "domain": {
+            "type": "Link",
+            "config": {
+              "select": "document",
+              "customtypes": [
+                "domain"
+              ],
+              "label": "domain"
+            }
+          },
+          "domain_text": {
+            "type": "StructuredText",
+            "config": {
+              "single": "paragraph",
+              "label": "domain text"
+            }
+          }
+        },
+        "label": "domain group"
+      }
+    },
+    "screenshot_study_header": {
+      "type": "Image",
+      "config": {
+        "constraint": {
+          "width": 1200,
+          "height": 600
+        },
+        "thumbnails": [],
+        "label": "Screenshot Study Header"
+      }
+    },
+    "tldr": {
+      "type": "StructuredText",
+      "config": {
+        "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+        "label": "TLDR"
+      }
+    },
+    "duration_group": {
+      "type": "Group",
+      "config": {
+        "fields": {
+          "study_duration": {
+            "type": "Select",
+            "config": {
+              "options": [
+                "Short-Term (≤3 mo)",
+                "Medium-Term (3–12 mo)",
+                "Long-Term (1–5 y)",
+                "Extended (5–20+ y)"
+              ],
+              "label": "Study Duration"
+            }
+          }
+        },
+        "label": "Duration Group"
+      }
+    },
+    "size_group": {
+      "type": "Group",
+      "config": {
+        "fields": {
+          "study_size": {
+            "type": "Select",
+            "config": {
+              "options": [
+                "Small size (≤100)",
+                "Medium size (100–500)",
+                "Large size (500–5000)",
+                "Mega size (5000+)"
+              ],
+              "label": "Study Size"
+            }
+          }
+        },
+        "label": "Size Group"
+      }
+    },
+    "region_group": {
+      "type": "Group",
+      "config": {
+        "fields": {
+          "region": {
+            "type": "Select",
+            "config": {
+              "options": [
+                "North America",
+                "Europe (EU & UK)",
+                "Asia-Pacific (APAC)",
+                "Latin America (LATAM)",
+                "Middle East & North Africa (MENA)",
+                "Sub-Saharan Africa",
+                "Global"
+              ],
+              "label": "Region"
+            }
+          }
+        },
+        "label": "Region Group"
+      }
+    },
+    "age_group": {
+      "type": "Group",
+      "config": {
+        "fields": {
+          "age": {
+            "type": "Select",
+            "config": {
+              "options": [
+                "Children (≤13)",
+                "Adolescent (13–18)",
+                "Young Adult (19–39)",
+                "Middle Aged (40-64)",
+                "Older Adults (65+)"
+              ],
+              "label": "Age"
+            }
+          }
+        },
+        "label": "Age Group"
+      }
+    },
+    "other_char_group": {
+      "type": "Group",
+      "config": {
+        "fields": {
+          "other_characteristics": {
+            "type": "Select",
+            "config": {
+              "options": [
+                "with Non-diabetics",
+                "with Cardiovascular Disease",
+                "with Chronic Kidney Disease",
+                "with Obesity",
+                "with T2 Diabetes",
+                "with T1 Diabetes",
+                "with Prediabetes",
+                "with Insulin Resistance",
+                "Pregnant Women"
+              ],
+              "label": "Other Characteristics"
+            }
+          }
+        },
+        "label": "Other Char Group"
+      }
+    },
+    "sex_group": {
+      "type": "Group",
+      "config": {
+        "fields": {
+          "sex": {
+            "type": "Select",
+            "config": {
+              "options": [
+                "Male",
+                "Female"
+              ],
+              "label": "Sex"
+            }
+          }
+        },
+        "label": "Sex Group"
+      }
+    },
+    "study_type_group": {
+      "type": "Group",
+      "config": {
+        "fields": {
+          "study_type": {
+            "type": "Select",
+            "config": {
+              "options": [
+                "Meta-Analysis",
+                "Systematic Review",
+                "RCTs",
+                "Non-randomized CT",
+                "Cohort",
+                "Case-Control",
+                "Cross-Sectional"
+              ],
+              "label": "Study Type"
+            }
+          }
+        },
+        "label": "Study Type Group"
+      }
+    },
+    "industry_sponsored": {
+      "type": "Boolean",
+      "config": {
+        "default_value": false,
+        "label": "Industry Sponsored"
+      }
+    },
+    "bias_overall": {
+      "type": "Select",
+      "config": {
+        "options": [
+          "Low",
+          "Some Concerns",
+          "High",
+          "Very High"
+        ],
+        "label": "Bias Overall"
+      }
+    },
+    "mentions_group": {
+      "type": "Group",
+      "config": {
+        "fields": {
+          "source": {
+            "type": "Select",
+            "config": {
+              "options": [
+                "Expert",
+                "Online",
+                "Reddit",
+                "Studies",
+                "X",
+                "YouTube"
+              ],
+              "label": "Source"
+            }
+          },
+          "title1": {
+            "type": "StructuredText",
+            "config": {
+              "single": "heading3",
+              "label": "title"
+            }
+          },
+          "name": {
+            "type": "StructuredText",
+            "config": {
+              "multi": "paragraph",
+              "label": "name"
+            }
+          },
+          "link": {
+            "type": "Link",
+            "config": {
+              "label": "link",
+              "select": null
+            }
+          }
+        },
+        "label": "Mentions group"
+      }
+    },
+    "methodology": {
+      "type": "StructuredText",
+      "config": {
+        "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+        "label": "Methodology"
+      }
+    },
+    "intervention": {
+      "type": "StructuredText",
+      "config": {
+        "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+        "label": "Intervention"
+      }
+    },
+    "intervention_snomed_list": {
+      "type": "StructuredText",
+      "config": {
+        "single": "paragraph",
+        "label": "Intervention SNOMED list"
+      }
+    },
+    "key_findings": {
+      "type": "StructuredText",
+      "config": {
+        "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+        "label": "Key Findings"
+      }
+    },
+    "comparison_with_other_studies": {
+      "type": "StructuredText",
+      "config": {
+        "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+        "label": "Comparison with Other Studies"
+      }
+    },
+    "journal_reference_ama": {
+      "type": "StructuredText",
+      "config": {
+        "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+        "label": "Journal Reference AMA"
+      }
+    },
+    "body": {
+      "type": "Slices",
+      "fieldset": "Slice zone",
+      "config": {
+        "labels": {},
+        "choices": {
+          "interventions": {
+            "type": "Slice",
+            "fieldset": "Interventions",
+            "description": "Interventions and outcomes",
+            "icon": "account_balance_wallet",
+            "display": "list",
+            "non-repeat": {
+              "intervention": {
+                "type": "Link",
+                "config": {
+                  "select": "document",
+                  "customtypes": [
+                    "interventions"
+                  ],
+                  "label": "Intervention"
+                }
+              },
+              "intervention_text": {
+                "type": "StructuredText",
+                "config": {
+                  "single": "paragraph",
+                  "label": "Intervention Text"
+                }
+              },
+              "modifier": {
+                "type": "StructuredText",
+                "config": {
+                  "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                  "label": "modifier"
+                }
+              },
+              "intervention_type": {
+                "type": "Select",
+                "config": {
+                  "options": [
+                    "Other",
+                    "Medicine",
+                    "Supplement"
+                  ],
+                  "default_value": "Other",
+                  "label": "Intervention Type"
+                }
+              }
+            },
+            "repeat": {
+              "outcomes1": {
+                "type": "Link",
+                "config": {
+                  "select": "document",
+                  "customtypes": [
+                    "outcomes"
+                  ],
+                  "label": "Outcomes"
+                }
+              },
+              "outcome_text": {
+                "type": "StructuredText",
+                "config": {
+                  "single": "paragraph",
+                  "label": "Outcome Text"
+                }
+              },
+              "effectiveness": {
+                "type": "Select",
+                "config": {
+                  "options": [
+                    "Low",
+                    "Medium",
+                    "High"
+                  ],
+                  "label": "Effectiveness"
+                }
+              },
+              "rank_value": {
+                "type": "Number",
+                "config": {
+                  "label": "Rank Value"
+                }
+              },
+              "explanation": {
+                "type": "StructuredText",
+                "config": {
+                  "single": "paragraph",
+                  "label": "Explanation"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

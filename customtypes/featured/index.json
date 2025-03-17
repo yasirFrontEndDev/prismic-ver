@@ -1,0 +1,10 @@
+{
+  "id": "featured",
+  "json": {
+    "Main": {}
+  },
+  "label": "Featured",
+  "repeatable": false,
+  "status": true,
+  "format": "custom"
+}

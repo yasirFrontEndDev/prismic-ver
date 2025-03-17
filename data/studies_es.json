@@ -1,0 +1,97 @@
+[
+  {
+    "source": "Studies",
+    "title1": [
+      {
+        "type": "heading3",
+        "text": "El rol de la fibra dietética en la nutrición enteral"
+      }
+    ],
+    "name": [
+      {
+        "type": "paragraph",
+        "text": "Revista Chilena de Nutrición"
+      }
+    ],
+    "link": {
+      "link_type": "Web",
+      "url": "https://www.scielo.cl/scielo.php?pid=S0717-75182006000400002&script=sci_arttext"
+    }
+  },
+  {
+    "source": "Studies",
+    "title1": [
+      {
+        "type": "heading3",
+        "text": "Fibra dietaria y microbiota, revisión narrativa de un grupo de expertos de la Asociación Mexicana de Gastroenterología"
+      }
+    ],
+    "name": [
+      {
+        "type": "paragraph",
+        "text": "Revista de Gastroenterología de México"
+      }
+    ],
+    "link": {
+      "link_type": "Web",
+      "url": "https://www.revistagastroenterologiamexico.org/index.php?p=revista&pii=S0375090621000409&tipo=pdf-simple"
+    }
+  },
+  {
+    "source": "Studies",
+    "title1": [
+      {
+        "type": "heading3",
+        "text": "Revisión científica sobre los efectos de la fibra en la salud. Estudio de la Universidad Complutense de Madrid"
+      }
+    ],
+    "name": [
+      {
+        "type": "paragraph",
+        "text": "Universidad Complutense de Madrid"
+      }
+    ],
+    "link": {
+      "link_type": "Web",
+      "url": "https://docta.ucm.es/bitstreams/878ab8f9-12e6-47fe-a919-aecd04b99f00/download"
+    }
+  },
+  {
+    "source": "Studies",
+    "title1": [
+      {
+        "type": "heading3",
+        "text": "Indicaciones de diferentes tipos de fibra en distintas patologías"
+      }
+    ],
+    "name": [
+      {
+        "type": "paragraph",
+        "text": "Nutrición Hospitalaria"
+      }
+    ],
+    "link": {
+      "link_type": "Web",
+      "url": "https://scielo.isciii.es/pdf/nh/v31n6/05revision04.pdf"
+    }
+  },
+  {
+    "source": "Studies",
+    "title1": [
+      {
+        "type": "heading3",
+        "text": "El consumo de fibra reduce el riesgo de parámetros cardiometabólicos y de mortalidad prematura: resultados de una revisión sistemática y un metaanálisis"
+      }
+    ],
+    "name": [
+      {
+        "type": "paragraph",
+        "text": "Fundación Iberoamericana de Nutrición"
+      }
+    ],
+    "link": {
+      "link_type": "Web",
+      "url": "https://www.finut.org/el-consumo-de-fibra-reduce-el-riesgo-de-parametros-cardiometabolicos-y-de-mortalidad-prematura-resultados-de-una-revision-sistematica-y-un-metaanalisis/"
+    }
+  }
+]

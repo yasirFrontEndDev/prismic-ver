@@ -1,0 +1,97 @@
+[
+  {
+    "source": "Expert",
+    "title1": [
+      {
+        "type": "heading3",
+        "text": "The Super Fiber that Controls your Appetite and Blood Sugar"
+      }
+    ],
+    "name": [
+      {
+        "type": "paragraph",
+        "text": "Dr. Mark Hyman"
+      }
+    ],
+    "link": {
+      "link_type": "Web",
+      "url": "https://drhyman.com/blogs/content/the-super-fiber-that-controls-your-appetite-and-blood-sugar-2"
+    }
+  },
+  {
+    "source": "Expert",
+    "title1": [
+      {
+        "type": "heading3",
+        "text": "How Does Fiber Affect Glucose Levels?"
+      }
+    ],
+    "name": [
+      {
+        "type": "paragraph",
+        "text": "Joslin Diabetes Center"
+      }
+    ],
+    "link": {
+      "link_type": "Web",
+      "url": "https://joslin.org/news-stories/all-news-stories/education/2021/07/how-does-fiber-affect-glucose-levels"
+    }
+  },
+  {
+    "source": "Expert",
+    "title1": [
+      {
+        "type": "heading3",
+        "text": "Soluble Fiber May Improve Diabetes Control"
+      }
+    ],
+    "name": [
+      {
+        "type": "paragraph",
+        "text": "Lisa Rapaport"
+      }
+    ],
+    "link": {
+      "link_type": "Web",
+      "url": "https://www.reuters.com/article/business/healthcare-pharmaceuticals/soluble-fiber-may-improve-diabetes-control-idUSKCN1PI309/"
+    }
+  },
+  {
+    "source": "Expert",
+    "title1": [
+      {
+        "type": "heading3",
+        "text": "Viscous Fibre for Type 2 Diabetes"
+      }
+    ],
+    "name": [
+      {
+        "type": "paragraph",
+        "text": "The Royal Australian College of General Practitioners"
+      }
+    ],
+    "link": {
+      "link_type": "Web",
+      "url": "https://www.racgp.org.au/clinical-resources/clinical-guidelines/handi/handi-interventions/nutrition/viscous-fibre-for-type-2-diabetes"
+    }
+  },
+  {
+    "source": "Expert",
+    "title1": [
+      {
+        "type": "heading3",
+        "text": "Dietary Fibre and Whole Grains in Diabetes Management: Systematic Review and Meta-Analyses"
+      }
+    ],
+    "name": [
+      {
+        "type": "paragraph",
+        "text": "Andrew Reynolds"
+      }
+    ],
+    "link": {
+      "link_type": "Web",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7059907/"
+    }
+  }
+]

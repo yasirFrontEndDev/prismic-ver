@@ -1,0 +1,72 @@
+{
+  "body": [
+    {
+      "slice_type": "interventions",
+      "slice_label": null,
+      "primary": {
+        "intervention_text": [
+          {
+            "type": "paragraph",
+            "text": "Psyllium",
+            "spans": []
+          }
+        ],
+        "intervention_type": "Supplement"
+      },
+      "items": [
+        {
+          "outcome_text": [
+            {
+              "type": "paragraph",
+              "text": "HbA1c reduction",
+              "spans": []
+            }
+          ],
+          "effectiveness": "High",
+          "rank_value": 3,
+          "explanation": [
+            {
+              "type": "paragraph",
+              "text": "Psyllium supplementation showed a significant reduction in HbA1c levels, indicating its strong effectiveness for glycemic control.",
+              "spans": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slice_type": "interventions",
+      "slice_label": null,
+      "primary": {
+        "intervention_text": [
+          {
+            "type": "paragraph",
+            "text": "Guar gum",
+            "spans": []
+          }
+        ],
+        "intervention_type": "Supplement"
+      },
+      "items": [
+        {
+          "outcome_text": [
+            {
+              "type": "paragraph",
+              "text": "Fasting glucose reduction",
+              "spans": []
+            }
+          ],
+          "effectiveness": "Medium",
+          "rank_value": 2,
+          "explanation": [
+            {
+              "type": "paragraph",
+              "text": "Guar gum exhibited moderate efficacy in reducing fasting glucose levels, though variations were observed across studies.",
+              "spans": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

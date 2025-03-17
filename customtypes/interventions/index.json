@@ -1,0 +1,46 @@
+{
+  "id": "interventions",
+  "json": {
+    "Main": {
+      "name": {
+        "type": "StructuredText",
+        "config": {
+          "single": "heading1,heading2,heading3,heading4,heading5,heading6",
+          "label": "Name"
+        }
+      },
+      "uid": {
+        "type": "UID",
+        "config": {
+          "label": "uid"
+        }
+      },
+      "copy_source_info": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+          "label": "Copy Source Info"
+        }
+      },
+      "snomed_items": {
+        "type": "Group",
+        "config": {
+          "fields": {
+            "snomed_ct": {
+              "type": "StructuredText",
+              "config": {
+                "single": "paragraph",
+                "label": "SNOMED CT"
+              }
+            }
+          },
+          "label": "SNOMED ITEMS"
+        }
+      }
+    }
+  },
+  "label": "Interventions",
+  "repeatable": true,
+  "status": true,
+  "format": "custom"
+}

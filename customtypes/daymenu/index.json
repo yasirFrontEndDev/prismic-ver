@@ -1,0 +1,130 @@
+{
+  "id": "daymenu",
+  "json": {
+    "Main": {
+      "menu": {
+        "type": "Text",
+        "config": {
+          "label": "Menu",
+          "placeholder": "menu1"
+        }
+      },
+      "author": {
+        "type": "Link",
+        "config": {
+          "select": "document",
+          "customtypes": ["author"],
+          "label": "Author"
+        }
+      },
+      "breakfast_recipes": {
+        "type": "Group",
+        "config": {
+          "fields": {
+            "text_breakfast": {
+              "type": "StructuredText",
+              "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "Text_breakfast"
+              }
+            },
+            "recipe_breakfast": {
+              "type": "Link",
+              "config": {
+                "select": "document",
+                "customtypes": ["recipes"],
+                "label": "Recipe Breakfast"
+              }
+            }
+          },
+          "label": "breakfast_recipes"
+        }
+      },
+      "lunch_recipes": {
+        "type": "Group",
+        "config": {
+          "fields": {
+            "text_lunch": {
+              "type": "StructuredText",
+              "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "Text Lunch"
+              }
+            },
+            "recipe_lunch": {
+              "type": "Link",
+              "config": {
+                "select": "document",
+                "customtypes": ["recipes"],
+                "label": "Recipe Lunch"
+              }
+            }
+          },
+          "label": "Lunch Recipes"
+        }
+      },
+      "dinner_recipes": {
+        "type": "Group",
+        "config": {
+          "fields": {
+            "text_dinner": {
+              "type": "StructuredText",
+              "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "Text Dinner"
+              }
+            },
+            "recipe_dinner": {
+              "type": "Link",
+              "config": {
+                "select": "document",
+                "customtypes": ["recipes"],
+                "label": "Recipe Dinner"
+              }
+            }
+          },
+          "label": "Dinner Recipes"
+        }
+      },
+      "snacks": {
+        "type": "Group",
+        "config": {
+          "fields": {
+            "textsnack": {
+              "type": "StructuredText",
+              "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "TextSnack"
+              }
+            },
+            "snack_link": {
+              "type": "Link",
+              "config": {
+                "select": "document",
+                "tags": ["snacks"],
+                "label": "Snack Link"
+              }
+            }
+          },
+          "label": "Snacks"
+        }
+      },
+      "calories": {
+        "type": "Number",
+        "config": {
+          "label": "Calories"
+        }
+      },
+      "carbs": {
+        "type": "Number",
+        "config": {
+          "label": "Carbs"
+        }
+      }
+    }
+  },
+  "label": "DayMenu",
+  "repeatable": true,
+  "status": true,
+  "format": "custom"
+}

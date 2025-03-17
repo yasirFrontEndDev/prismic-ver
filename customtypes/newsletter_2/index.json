@@ -1,0 +1,254 @@
+{
+  "id": "newsletter_2",
+  "json": {
+    "Main": {
+      "uid": {
+        "type": "UID",
+        "config": {
+          "label": "Sort Name"
+        }
+      },
+      "newsletter_title": {
+        "type": "StructuredText",
+        "config": {
+          "single": "heading1,heading2,heading3,heading4,heading5,heading6",
+          "label": "Newsletter TItle",
+          "placeholder": "Boletin Semanal Dediabetes"
+        }
+      },
+      "subtitle": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "paragraph",
+          "label": "Subtitle"
+        }
+      },
+      "body": {
+        "type": "Slices",
+        "fieldset": "Slice zone",
+        "config": {
+          "labels": null,
+          "choices": {
+            "post_with_image": {
+              "type": "Slice",
+              "fieldset": "Post section",
+              "description": "Post section",
+              "icon": "account_box",
+              "display": "list",
+              "non-repeat": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1,heading2,heading3,heading4,heading5,heading6",
+                    "label": "title"
+                  }
+                }
+              },
+              "repeat": {
+                "post": {
+                  "type": "Link",
+                  "config": {
+                    "select": "document",
+                    "customtypes": ["blog_post"],
+                    "label": "post"
+                  }
+                }
+              }
+            },
+            "advice_section": {
+              "type": "Slice",
+              "fieldset": "Advice Section",
+              "description": "Advice Section",
+              "icon": "adb",
+              "display": "list",
+              "non-repeat": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1,heading2,heading3,heading4,heading5,heading6",
+                    "label": "Title"
+                  }
+                }
+              },
+              "repeat": {
+                "advice": {
+                  "type": "Link",
+                  "config": {
+                    "select": "document",
+                    "customtypes": ["advice"],
+                    "label": "advice"
+                  }
+                }
+              }
+            },
+            "menu": {
+              "type": "Slice",
+              "fieldset": "Day Menu",
+              "description": "Day Menu",
+              "icon": "add_shopping_cart",
+              "display": "list",
+              "non-repeat": {
+                "menu": {
+                  "type": "Link",
+                  "config": {
+                    "select": "document",
+                    "customtypes": ["daymenu"],
+                    "label": "Menu"
+                  }
+                },
+                "border_color": {
+                  "type": "Color",
+                  "config": {
+                    "label": "Border color"
+                  }
+                }
+              },
+              "repeat": {}
+            },
+            "text_section": {
+              "type": "Slice",
+              "fieldset": "Text Section",
+              "description": "Text Section",
+              "icon": "adjust",
+              "display": "list",
+              "non-repeat": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1,heading2,heading3,heading4,heading5,heading6",
+                    "label": "Title"
+                  }
+                },
+                "text": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "Text"
+                  }
+                }
+              },
+              "repeat": {}
+            },
+            "image": {
+              "type": "Slice",
+              "fieldset": "Image",
+              "description": "Image",
+              "icon": "aspect_ratio",
+              "display": "list",
+              "non-repeat": {
+                "image": {
+                  "type": "Image",
+                  "config": {
+                    "constraint": {},
+                    "thumbnails": [],
+                    "label": "Image"
+                  }
+                }
+              },
+              "repeat": {}
+            },
+            "quote": {
+              "type": "Slice",
+              "fieldset": "Quote",
+              "description": "A featured quote",
+              "icon": "format_quote",
+              "non-repeat": {
+                "quote": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,strong,em",
+                    "label": "quote",
+                    "placeholder": "Enter quote..."
+                  }
+                },
+                "border_color": {
+                  "type": "Color",
+                  "config": {
+                    "label": "Border Color"
+                  }
+                }
+              },
+              "repeat": {}
+            },
+            "info_box": {
+              "type": "Slice",
+              "fieldset": "Info Box",
+              "description": "Info Text Box",
+              "icon": "sim_card_alert",
+              "non-repeat": {
+                "heading": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1,heading2,heading3,heading4,heading5,heading6",
+                    "label": "Heading"
+                  }
+                },
+                "text": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                    "label": "text",
+                    "placeholder": "Enter info text..."
+                  }
+                },
+                "border_color": {
+                  "type": "Color",
+                  "config": {
+                    "label": "Border color"
+                  }
+                }
+              },
+              "repeat": {}
+            },
+            "spacer_line": {
+              "type": "Slice",
+              "fieldset": "Spacer Line",
+              "description": "Spacer Line",
+              "icon": "border_top",
+              "display": "list",
+              "non-repeat": {
+                "insert_line": {
+                  "type": "Boolean",
+                  "config": {
+                    "default_value": true,
+                    "label": "Insert Line"
+                  }
+                }
+              },
+              "repeat": {}
+            },
+            "curating_content": {
+              "type": "Slice",
+              "fieldset": "Curating Content",
+              "description": "Curating Content",
+              "icon": "account_balance_wallet",
+              "display": "list",
+              "non-repeat": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1,heading2,heading3,heading4,heading5,heading6",
+                    "label": "Title"
+                  }
+                }
+              },
+              "repeat": {
+                "links": {
+                  "type": "Link",
+                  "config": {
+                    "label": "Links",
+                    "select": null
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "label": "Newsletter 2",
+  "repeatable": true,
+  "status": true,
+  "format": "custom"
+}

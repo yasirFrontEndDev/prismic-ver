@@ -1,0 +1,61 @@
+{
+  "type": "research",
+  "uid": "deberian-suplementos-fibra-viscosa",
+  "lang": "es-es",
+  "data": {
+    "title": [
+      {
+        "type": "heading1",
+        "text": "Suplementos de Fibra Viscosa para el Control de la Diabetes",
+        "spans": []
+      }
+    ],
+    "tldr": [
+      {
+        "type": "paragraph",
+        "text": "Esta revisión sistemática y metaanálisis evaluó el efecto de la suplementación con fibra viscosa en el control glucémico en personas con diabetes tipo 2. Se analizaron 28 ensayos clínicos controlados aleatorios (ECA) con un total de 1,394 participantes. Los resultados muestran que la fibra viscosa reduce significativamente la HbA1c, la glucosa en ayunas y los marcadores de resistencia a la insulina. La dosis media utilizada fue de 13.1 g/día con una duración media de 8 semanas. El estudio concluye que la fibra viscosa puede mejorar el control glucémico y debe considerarse en las estrategias de manejo de la diabetes.",
+        "spans": []
+      },
+      {
+        "type": "paragraph",
+        "text": "Los resultados indican que las personas con niveles iniciales más altos de HbA1c mostraron mayores reducciones en sus parámetros glucémicos. Sin embargo, se observó una heterogeneidad sustancial entre los estudios. La certeza de la evidencia fue clasificada como moderada para los principales marcadores glucémicos y baja para la fructosamina. Se recomienda la revisión de las guías dietéticas para incluir la fibra viscosa en el tratamiento de la diabetes tipo 2.",
+        "spans": []
+      }
+    ],
+    "methodology": [
+      {
+        "type": "paragraph",
+        "text": "Se realizó una búsqueda sistemática en MEDLINE, Embase y Cochrane Central para identificar ensayos controlados aleatorizados que investigaran los efectos de la fibra viscosa en el control glucémico en personas con diabetes tipo 2. Se incluyeron estudios con una duración mínima de 3 semanas. Dos revisores independientes extrajeron los datos y se utilizaron métodos estadísticos avanzados para analizar los resultados. La certeza de la evidencia se evaluó mediante el sistema GRADE.",
+        "spans": []
+      }
+    ],
+    "intervention": [
+      {
+        "type": "paragraph",
+        "text": "Los participantes recibieron una dosis media de 13.1 g/día de fibra viscosa, incluyendo psyllium, goma guar, konjac y β-glucano. Las intervenciones se proporcionaron en diferentes formas, como polvo, cápsulas y alimentos enriquecidos. Se compararon con suplementos sin fibra o con fibra insoluble.",
+        "spans": []
+      }
+    ],
+    "intervention_snomed_list": [
+      {
+        "type": "paragraph",
+        "text": "Psyllium, Goma guar, Konjac, β-glucano",
+        "spans": []
+      }
+    ],
+    "key_findings": [
+      {
+        "type": "paragraph",
+        "text": "La suplementación con fibra viscosa redujo significativamente la HbA1c (-0.58%), la glucosa en ayunas (-0.82 mmol/L) y la resistencia a la insulina (reducción de HOMA-IR de 1.89). Estos hallazgos respaldan la inclusión de la fibra viscosa en el manejo de la diabetes, especialmente en individuos con niveles elevados de HbA1c.",
+        "spans": []
+      }
+    ],
+    "comparison_with_other_studies": [
+      {
+        "type": "paragraph",
+        "text": "Este estudio confirma investigaciones previas que indican que la fibra dietética puede ayudar a mejorar el control glucémico. En comparación con estudios anteriores que agruparon fibra soluble e insoluble, este metaanálisis se centró exclusivamente en la fibra viscosa, demostrando sus beneficios específicos. Aunque la fibra insoluble favorece la salud intestinal, la fibra viscosa tiene efectos metabólicos positivos, incluyendo la regulación de la glucosa y los lípidos.",
+        "spans": []
+      }
+    ]
+  }
+}

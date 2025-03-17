@@ -1,0 +1,62 @@
+{
+  "id": "expert",
+  "json": {
+    "Main": {
+      "name": {
+        "type": "StructuredText",
+        "config": {
+          "single": "heading1",
+          "label": "Name"
+        }
+      },
+      "uid": {
+        "type": "UID",
+        "config": {
+          "label": "Slug"
+        }
+      },
+      "certifications": {
+        "type": "Text",
+        "config": {
+          "label": "Certifications"
+        }
+      },
+      "description_short": {
+        "type": "StructuredText",
+        "config": {
+          "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+          "label": "Description Short"
+        }
+      },
+      "description_long": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+          "label": "Description Long"
+        }
+      },
+      "linkedin": {
+        "type": "Link",
+        "config": {
+          "label": "Linkedin",
+          "select": null
+        }
+      },
+      "headshot": {
+        "type": "Image",
+        "config": {
+          "constraint": {
+            "width": 120,
+            "height": 120
+          },
+          "thumbnails": [],
+          "label": "Headshot"
+        }
+      }
+    }
+  },
+  "label": "Expert",
+  "repeatable": true,
+  "status": true,
+  "format": "custom"
+}

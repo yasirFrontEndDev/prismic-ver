@@ -1,0 +1,97 @@
+[
+  {
+    "source": "Expert",
+    "title1": [
+      {
+        "type": "heading3",
+        "text": "La fibra soluble mejoraría el control de la diabetes"
+      }
+    ],
+    "name": [
+      {
+        "type": "paragraph",
+        "text": "Lisa Rapaport"
+      }
+    ],
+    "link": {
+      "link_type": "Web",
+      "url": "https://www.yahoo.com/news/la-fibra-soluble-mejorar%C3%ADa-el-control-la-diabetes-145325728.html"
+    }
+  },
+  {
+    "source": "Expert",
+    "title1": [
+      {
+        "type": "heading3",
+        "text": "Los 16 mejores alimentos para controlar la diabetes"
+      }
+    ],
+    "name": [
+      {
+        "type": "paragraph",
+        "text": "Healthline"
+      }
+    ],
+    "link": {
+      "link_type": "Web",
+      "url": "https://www.healthline.com/health/es/comida-para-diabeticos"
+    }
+  },
+  {
+    "source": "Expert",
+    "title1": [
+      {
+        "type": "heading3",
+        "text": "La opinión de los expertos"
+      }
+    ],
+    "name": [
+      {
+        "type": "paragraph",
+        "text": "Datos Sobre La Fibra"
+      }
+    ],
+    "link": {
+      "link_type": "Web",
+      "url": "https://www.datossobrelafibra.com/la-opinion-de-los-expertos/"
+    }
+  },
+  {
+    "source": "Expert",
+    "title1": [
+      {
+        "type": "heading3",
+        "text": "No Deje que la Diabetes Tipo 2 Controle Su Vida"
+      }
+    ],
+    "name": [
+      {
+        "type": "paragraph",
+        "text": "UI Health"
+      }
+    ],
+    "link": {
+      "link_type": "Web",
+      "url": "https://hospital.uillinois.edu/es/news/los-proveedores-opinan-diabetes-tipo-2"
+    }
+  },
+  {
+    "source": "Expert",
+    "title1": [
+      {
+        "type": "heading3",
+        "text": "Fibra dietaria y microbiota, revisión narrativa de un grupo de expertos de la Asociación Mexicana de Gastroenterología"
+      }
+    ],
+    "name": [
+      {
+        "type": "paragraph",
+        "text": "A.T. Abreu y Abreu"
+      }
+    ],
+    "link": {
+      "link_type": "Web",
+      "url": "https://www.revistagastroenterologiamexico.org/index.php?p=revista&pii=S0375090621000409&tipo=pdf-simple"
+    }
+  }
+]

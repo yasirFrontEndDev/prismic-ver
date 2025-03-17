@@ -1,0 +1,72 @@
+{
+  "body": [
+    {
+      "slice_type": "interventions",
+      "slice_label": null,
+      "primary": {
+        "intervention_text": [
+          {
+            "type": "paragraph",
+            "text": "Psyllium",
+            "spans": []
+          }
+        ],
+        "intervention_type": "Supplement"
+      },
+      "items": [
+        {
+          "outcome_text": [
+            {
+              "type": "paragraph",
+              "text": "Reducción de HbA1c",
+              "spans": []
+            }
+          ],
+          "effectiveness": "High",
+          "rank_value": 3,
+          "explanation": [
+            {
+              "type": "paragraph",
+              "text": "La suplementación con psyllium mostró una reducción significativa en los niveles de HbA1c, lo que indica una alta efectividad en el control glucémico.",
+              "spans": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slice_type": "interventions",
+      "slice_label": null,
+      "primary": {
+        "intervention_text": [
+          {
+            "type": "paragraph",
+            "text": "Goma guar",
+            "spans": []
+          }
+        ],
+        "intervention_type": "Supplement"
+      },
+      "items": [
+        {
+          "outcome_text": [
+            {
+              "type": "paragraph",
+              "text": "Reducción de glucosa en ayunas",
+              "spans": []
+            }
+          ],
+          "effectiveness": "Medium",
+          "rank_value": 2,
+          "explanation": [
+            {
+              "type": "paragraph",
+              "text": "La goma guar presentó una eficacia moderada en la reducción de la glucosa en ayunas, aunque se observaron variaciones entre los estudios.",
+              "spans": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

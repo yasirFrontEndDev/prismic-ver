@@ -1,0 +1,31 @@
+{
+  "id": "domain",
+  "json": {
+    "Main": {
+      "uid": {
+        "type": "UID",
+        "config": {
+          "label": "id"
+        }
+      },
+      "name": {
+        "type": "StructuredText",
+        "config": {
+          "single": "heading1,heading2,heading3,heading4,heading5,heading6",
+          "label": "name"
+        }
+      },
+      "json_source": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+          "label": "JSON Source"
+        }
+      }
+    }
+  },
+  "label": "Domain",
+  "repeatable": true,
+  "status": true,
+  "format": "custom"
+}

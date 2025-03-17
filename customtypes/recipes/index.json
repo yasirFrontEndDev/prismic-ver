@@ -1,0 +1,386 @@
+{
+  "id": "recipes",
+  "json": {
+    "Main": {
+      "title1": {
+        "type": "StructuredText",
+        "config": {
+          "single": "heading1",
+          "label": "Title"
+        }
+      },
+      "uid": {
+        "type": "UID",
+        "config": {
+          "label": "Slug"
+        }
+      },
+      "date": {
+        "type": "Date",
+        "config": {
+          "label": "Date",
+          "placeholder": "date"
+        }
+      },
+      "private_recipe": {
+        "type": "Boolean",
+        "config": {
+          "default_value": false,
+          "label": "Private Recipe"
+        }
+      },
+      "category": {
+        "type": "Link",
+        "config": {
+          "select": "document",
+          "customtypes": ["catego"],
+          "label": "Category",
+          "placeholder": "Category"
+        }
+      },
+      "description": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+          "allowTargetBlank": true,
+          "label": "Description"
+        }
+      },
+      "descriptionb": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+          "allowTargetBlank": true,
+          "label": "DescriptionB",
+          "placeholder": "DescriptionB"
+        }
+      },
+      "image": {
+        "type": "Image",
+        "config": {
+          "constraint": {
+            "width": 1000,
+            "height": 650
+          },
+          "thumbnails": [],
+          "label": "Image"
+        }
+      },
+      "tags": {
+        "type": "Group",
+        "config": {
+          "fields": {
+            "tag": {
+              "type": "Link",
+              "config": {
+                "select": "document",
+                "customtypes": ["tag_recipe"],
+                "label": "Tag"
+              }
+            }
+          },
+          "label": "Tags"
+        }
+      },
+      "preptime": {
+        "type": "Number",
+        "config": {
+          "label": "Preptime"
+        }
+      },
+      "cooktime": {
+        "type": "Number",
+        "config": {
+          "label": "Cooktime"
+        }
+      },
+      "servings1": {
+        "type": "Number",
+        "config": {
+          "label": "Servings",
+          "placeholder": "Servings"
+        }
+      },
+      "calories1": {
+        "type": "Number",
+        "config": {
+          "label": "Calories",
+          "placeholder": "Calories"
+        }
+      },
+      "protein1": {
+        "type": "Number",
+        "config": {
+          "label": "Protein",
+          "placeholder": "Protein"
+        }
+      },
+      "fat1": {
+        "type": "Number",
+        "config": {
+          "label": "Fat",
+          "placeholder": "Fat"
+        }
+      },
+      "carb1": {
+        "type": "Number",
+        "config": {
+          "label": "Carb",
+          "placeholder": "Carb"
+        }
+      },
+      "fiber1": {
+        "type": "Number",
+        "config": {
+          "label": "Fiber",
+          "placeholder": "Fiber"
+        }
+      },
+      "magnesio": {
+        "type": "Number",
+        "config": {
+          "label": "Magnesio",
+          "placeholder": "Magnesio"
+        }
+      },
+      "vitaminaa": {
+        "type": "Number",
+        "config": {
+          "label": "VitaminaA",
+          "placeholder": "VitaminaA"
+        }
+      },
+      "raccarb": {
+        "type": "Number",
+        "config": {
+          "label": "racCarb",
+          "placeholder": "racCarb"
+        }
+      },
+      "level": {
+        "type": "Select",
+        "config": {
+          "options": ["Fácil", "Media", "Experto"],
+          "default_value": "Fácil",
+          "label": "Level",
+          "placeholder": "Choose level"
+        }
+      },
+      "ingredientes": {
+        "type": "Group",
+        "config": {
+          "fields": {
+            "ingrediente_name": {
+              "type": "Text",
+              "config": {
+                "label": "Ingrediente Name"
+              }
+            }
+          },
+          "label": "Ingredientes"
+        }
+      },
+      "instrucciones": {
+        "type": "Group",
+        "config": {
+          "fields": {
+            "instruccione": {
+              "type": "StructuredText",
+              "config": {
+                "multi": "paragraph",
+                "label": "instruccione"
+              }
+            }
+          },
+          "label": "Instrucciones"
+        }
+      },
+      "related_recipes": {
+        "type": "Group",
+        "config": {
+          "fields": {
+            "related_recipe": {
+              "type": "Link",
+              "config": {
+                "select": "document",
+                "customtypes": ["recipes"],
+                "label": "Related Recipe"
+              }
+            }
+          },
+          "label": "Related Recipes"
+        }
+      },
+      "body": {
+        "type": "Slices",
+        "fieldset": "Slice zone",
+        "config": {
+          "labels": {
+            "video": [],
+            "items": [],
+            "steps_of_recipe": []
+          },
+          "choices": {
+            "video": {
+              "type": "Slice",
+              "fieldset": "Video",
+              "description": "Tutorial",
+              "icon": "ondemand_video",
+              "display": "list",
+              "non-repeat": {
+                "video_section": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading2",
+                    "label": "Video section",
+                    "placeholder": "Title of section"
+                  }
+                },
+                "video": {
+                  "type": "Embed",
+                  "config": {
+                    "label": "Video",
+                    "placeholder": "Embed url of video here"
+                  }
+                }
+              },
+              "repeat": {}
+            },
+            "items": {
+              "type": "Slice",
+              "fieldset": "Items",
+              "description": "Bullet points for ingredients or ustensiles for e.g",
+              "icon": "add_box",
+              "display": "list",
+              "non-repeat": {
+                "items_title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading2",
+                    "label": "Items title",
+                    "placeholder": "Write title of section here"
+                  }
+                }
+              },
+              "repeat": {
+                "item": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Item",
+                    "placeholder": "Repeat field to add more items"
+                  }
+                }
+              }
+            },
+            "steps_of_recipe": {
+              "type": "Slice",
+              "fieldset": "Steps of recipe",
+              "description": "Step 1, Step 2 etc.",
+              "icon": "bubble_chart",
+              "display": "list",
+              "non-repeat": {
+                "steps": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading2",
+                    "label": "Steps",
+                    "placeholder": "Write title of this section"
+                  }
+                }
+              },
+              "repeat": {
+                "step_title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading3",
+                    "label": "Step title",
+                    "placeholder": "Write title of step (e.g Step 1, Step 2)"
+                  }
+                },
+                "description_of_step": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph,strong,hyperlink",
+                    "label": "Description of step",
+                    "placeholder": "Describe step here"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Nutrition": {
+      "servings": {
+        "type": "Number",
+        "config": {
+          "label": "Servings",
+          "placeholder": "Number of portions"
+        }
+      },
+      "portion": {
+        "type": "Number",
+        "config": {
+          "label": "Portion",
+          "placeholder": "portion size"
+        }
+      },
+      "portion_unit": {
+        "type": "Select",
+        "config": {
+          "options": ["gr", "unidad"],
+          "default_value": "gr",
+          "label": "Portion unit"
+        }
+      },
+      "calories": {
+        "type": "Number",
+        "config": {
+          "label": "Calories"
+        }
+      },
+      "protein": {
+        "type": "Number",
+        "config": {
+          "label": "Protein"
+        }
+      },
+      "fat": {
+        "type": "Number",
+        "config": {
+          "label": "Fat",
+          "placeholder": "fat"
+        }
+      },
+      "carb": {
+        "type": "Number",
+        "config": {
+          "label": "Carb"
+        }
+      },
+      "fiber": {
+        "type": "Number",
+        "config": {
+          "label": "Fiber"
+        }
+      },
+      "magnesium": {
+        "type": "Number",
+        "config": {
+          "label": "Magnesium"
+        }
+      },
+      "vitamin_a": {
+        "type": "Number",
+        "config": {
+          "label": "Vitamin A"
+        }
+      }
+    }
+  },
+  "label": "Recipe",
+  "repeatable": true,
+  "status": true,
+  "format": "custom"
+}

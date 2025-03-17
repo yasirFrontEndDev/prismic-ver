@@ -1,0 +1,63 @@
+{
+  "id": "newsletter",
+  "json": {
+    "Main": {
+      "uid": {
+        "type": "UID",
+        "config": {
+          "label": "Sort Name"
+        }
+      },
+      "newsletter_title": {
+        "type": "StructuredText",
+        "config": {
+          "single": "heading1,heading2,heading3,heading4,heading5,heading6",
+          "label": "Newsletter TItle"
+        }
+      },
+      "editorial": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+          "label": "Editorial"
+        }
+      },
+      "posts": {
+        "type": "Group",
+        "config": {
+          "fields": {
+            "nlposts": {
+              "type": "Link",
+              "config": {
+                "select": "document",
+                "customtypes": ["blog_post"],
+                "label": "nlPosts"
+              }
+            }
+          },
+          "label": "Posts"
+        }
+      },
+      "advice_newsletter": {
+        "type": "Link",
+        "config": {
+          "select": "document",
+          "customtypes": ["advice"],
+          "label": "Advice Newsletter"
+        }
+      },
+      "day_menu": {
+        "type": "Link",
+        "config": {
+          "select": "document",
+          "customtypes": ["daymenu"],
+          "label": "Day Menu"
+        }
+      }
+    }
+  },
+  "label": " Newsletter",
+  "repeatable": true,
+  "status": true,
+  "format": "custom"
+}

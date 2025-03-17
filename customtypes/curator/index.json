@@ -1,0 +1,90 @@
+{
+  "id": "curator",
+  "json": {
+    "Main": {
+      "name": {
+        "type": "StructuredText",
+        "config": {
+          "single": "heading1",
+          "label": "Name"
+        }
+      },
+      "uid": {
+        "type": "UID",
+        "config": {
+          "label": "Slug"
+        }
+      },
+      "certifications": {
+        "type": "Text",
+        "config": {
+          "label": "Certifications"
+        }
+      },
+      "description_short": {
+        "type": "StructuredText",
+        "config": {
+          "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+          "label": "Description Short"
+        }
+      },
+      "description_long": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+          "label": "Description Long"
+        }
+      },
+      "linkedin": {
+        "type": "Link",
+        "config": {
+          "label": "Linkedin",
+          "select": null
+        }
+      },
+      "twitter": {
+        "type": "Link",
+        "config": {
+          "label": "Twitter",
+          "select": null
+        }
+      },
+      "facebook": {
+        "type": "Link",
+        "config": {
+          "label": "Facebook",
+          "select": null
+        }
+      },
+      "personalink": {
+        "type": "Link",
+        "config": {
+          "label": "Personalink",
+          "select": null
+        }
+      },
+      "contact_info": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+          "label": "Contact Info"
+        }
+      },
+      "headshot": {
+        "type": "Image",
+        "config": {
+          "constraint": {
+            "width": 200,
+            "height": 200
+          },
+          "thumbnails": [],
+          "label": "Headshot"
+        }
+      }
+    }
+  },
+  "label": "Curator",
+  "repeatable": true,
+  "status": true,
+  "format": "custom"
+}

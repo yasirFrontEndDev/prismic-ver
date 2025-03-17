@@ -1,0 +1,290 @@
+{
+  "id": "provider",
+  "json": {
+    "Main": {
+      "uid": {
+        "type": "UID",
+        "config": {
+          "label": "id"
+        }
+      },
+      "name": {
+        "type": "StructuredText",
+        "config": {
+          "single": "heading1,heading2,heading3,heading4,heading5,heading6",
+          "label": "Name"
+        }
+      },
+      "overview": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+          "label": "Overview"
+        }
+      },
+      "image": {
+        "type": "Image",
+        "config": {
+          "constraint": {
+            "width": 200,
+            "height": 200
+          },
+          "thumbnails": [],
+          "label": "Image"
+        }
+      },
+      "category": {
+        "type": "Select",
+        "config": {
+          "options": ["Association", "Public", "Private"],
+          "label": "Category"
+        }
+      },
+      "specialty_group": {
+        "type": "Group",
+        "config": {
+          "fields": {
+            "speciality": {
+              "type": "Select",
+              "config": {
+                "options": [
+                  "Dietista",
+                  "Educador Certificado",
+                  "Endocrinólogo",
+                  "Oftalmólogo",
+                  "Podólogo"
+                ],
+                "label": "Speciality"
+              }
+            }
+          },
+          "label": "Specialty Group"
+        }
+      },
+      "condition_group": {
+        "type": "Group",
+        "config": {
+          "fields": {
+            "conditions": {
+              "type": "Select",
+              "config": {
+                "options": [
+                  "Depressive Disorders",
+                  "Eating Disorders",
+                  "Insomnia",
+                  "Alcohol Dependence",
+                  "Substance Use/Substance Abuse and/or Dependency"
+                ],
+                "label": "Conditions"
+              }
+            }
+          },
+          "label": "Condition Group"
+        }
+      },
+      "education_training": {
+        "type": "Group",
+        "config": {
+          "fields": {
+            "education_item": {
+              "type": "StructuredText",
+              "config": {
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                "label": "Education Item"
+              }
+            }
+          },
+          "label": "Education and Training"
+        }
+      },
+      "certifications": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+          "label": "Certifications"
+        }
+      },
+      "address": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+          "label": "Address"
+        }
+      },
+      "country": {
+        "type": "Select",
+        "config": {
+          "options": [
+            "Argentina",
+            "Bolivia",
+            "Brasil",
+            "Chile",
+            "Colombia",
+            "Costa Rica",
+            "Cuba",
+            "Ecuador",
+            "El Salvador",
+            "España",
+            "Granada",
+            "Guatemala",
+            "Guayana",
+            "Guayana Francesa",
+            "Haití",
+            "Honduras",
+            "Jamaica",
+            "México",
+            "Nicaragua",
+            "Panamá",
+            "Paraguay",
+            "Perú",
+            "Puerto Rico",
+            "República Dominicana",
+            "Surinam",
+            "Uruguay",
+            "Venezuela"
+          ],
+          "label": "Country"
+        }
+      },
+      "city": {
+        "type": "Select",
+        "config": {
+          "options": [
+            "Álava",
+            "Albacete",
+            "Alicante",
+            "Almería",
+            "Arequipa",
+            "Asturias",
+            "Asunción",
+            "Ávila",
+            "Badajoz",
+            "Baleares",
+            "Barcelona",
+            "Barquisimeto",
+            "Barranquilla",
+            "Belém",
+            "Belo Horizonte",
+            "Bogotá",
+            "Brasília",
+            "Bucaramanga",
+            "Buenos Aires",
+            "Burgos",
+            "Cáceres",
+            "Cádiz",
+            "Cali",
+            "Campinas",
+            "Cantabria",
+            "Caracas",
+            "Cartagena de Indias",
+            "Castellón",
+            "Ceuta",
+            "Ciudad Guayana",
+            "Ciudad Real",
+            "Cochabamba",
+            "Concepción",
+            "Córdoba",
+            "Córdoba",
+            "Cúcuta",
+            "Cuenca",
+            "Curitiba",
+            "Florianópolis",
+            "Fortaleza",
+            "Gerona",
+            "Goiânia",
+            "Gran Mendoza",
+            "Gran Rosario",
+            "Granada",
+            "Guadalajara",
+            "Guayaquil",
+            "Guipúzcoa",
+            "Huelva",
+            "Huesca",
+            "Jaén",
+            "João Pessoa",
+            "Joinville",
+            "La Coruña",
+            "La Paz",
+            "La Rioja",
+            "Las Palmas",
+            "León",
+            "Lérida",
+            "Lima",
+            "Lugo",
+            "Maceió",
+            "Madrid",
+            "Málaga",
+            "Manaus",
+            "Maracaibo",
+            "Maracay",
+            "Medellín",
+            "Melilla",
+            "Montevideo",
+            "Murcia",
+            "Natal",
+            "Navarra",
+            "Orense",
+            "Palencia",
+            "Piracicaba",
+            "Pontevedra",
+            "Porto Alegre",
+            "Quito",
+            "Recife",
+            "Ribeirão Preto",
+            "Río de Janeiro",
+            "Salamanca",
+            "Salvador",
+            "San José de los Campos",
+            "Santa Cruz de la Sierra",
+            "Santa Cruz de Tenerife",
+            "Santiago",
+            "Santos",
+            "São Luís",
+            "São Paulo",
+            "Segovia",
+            "Sevilla",
+            "Soria",
+            "Sorocaba",
+            "Tarragona",
+            "Teruel",
+            "Toledo",
+            "Trujillo",
+            "Valencia",
+            "Valencia",
+            "Valladolid",
+            "Valparaiso",
+            "Vitória",
+            "Vizcaya",
+            "Zamora",
+            "Zaragoza"
+          ],
+          "label": "City"
+        }
+      },
+      "page_link": {
+        "type": "Link",
+        "config": {
+          "label": "Page Link",
+          "select": null
+        }
+      },
+      "sponsored": {
+        "type": "Boolean",
+        "config": {
+          "default_value": false,
+          "label": "Sponsored"
+        }
+      },
+      "sponsored_end_date": {
+        "type": "Date",
+        "config": {
+          "label": "Sponsored End Date"
+        }
+      }
+    }
+  },
+  "label": "Provider",
+  "repeatable": true,
+  "status": true,
+  "format": "custom"
+}
